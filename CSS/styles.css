@@ -1,3 +1,64 @@
+header {
+    background-color: teal;
+    padding: 15px 0;
+    text-align: center; 
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center; 
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.nav{
+    background-color: teal;
+    list-style-type: none;
+    }
+    .nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    }
+    .nav li a{
+    text-decoration: none;
+    color:white
+    }
+    html
+    block
+    inline-block
+    css
+    #image-section {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #image-section img {
+        display: block;
+        max-width: 200px; 
+        border-radius: 50%;
+    }
+        
+
+
 .page-content {
     padding-top: 30px;
     overflow: hidden;
@@ -34,4 +95,25 @@
 /* Hover Effect */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: rgb(99, 0, 39);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 14px;
+        padding: 10px 0;
+    }
 }
